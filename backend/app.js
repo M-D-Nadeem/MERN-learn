@@ -1,6 +1,6 @@
 import cookieParser from "cookie-parser"
 import express from "express"
-import userRouter from "./routers/userrouter.js"
+import userRouter from "./routers/itemRouter.js"
 import itemRouter from "./routers/itemRouter.js"
 const app=express()
 
