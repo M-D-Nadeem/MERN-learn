@@ -4,7 +4,7 @@ import dbConnect from "./config/dbConnect.js";
 dotenv.config()
 dbConnect()
 
-const PORT=8006
+const PORT=3000
 app.listen(PORT,()=>{
     console.log(`Server is running at http://localhost:${PORT}`);
     
