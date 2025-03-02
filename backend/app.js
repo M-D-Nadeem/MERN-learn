@@ -1,7 +1,7 @@
 import cookieParser from "cookie-parser"
 import express from "express"
-import userRouter from "./routers/itemRouter.js"
 import itemRouter from "./routers/itemRouter.js"
+import userRouter from "./routers/router.js"
 const app=express()
 
 app.use(express.json({limit:"5000mb"}))
